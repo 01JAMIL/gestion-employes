@@ -1,0 +1,29 @@
+.not-found {
+  font-size: xx-large;
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+
+.title {
+  font-weight: bold;
+  margin-bottom: 25px;
+  text-align: center;
+  font-size: larger;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh;
+}
+
+.page {
+  min-height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
