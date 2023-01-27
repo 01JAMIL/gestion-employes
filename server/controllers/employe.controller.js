@@ -51,10 +51,8 @@ const saveEmploye = asyncHandler(async (req, res) => {
         return res.status(400).json({ emailError: 'Email existe déjà' })
     }
 
-    await Employe.create(req.body)
-    return res.status(201).json({
-        result: 'Employé enregistré avec succès'
-    })
+    const savedEmpoye = await Employe.create(req.body)
+    return res.status(201).json(savedEmpoye)
 })
 
 
